@@ -5,10 +5,10 @@
 	"name": "extendedarchaeology",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"AlpacaSama"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://github.com/Aless00san",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"net.alpaca.extendedarchaeology.ExampleMod"
-		],
-		"fabric-datagen": [
-			"net.alpaca.extendedarchaeology.ExampleModDataGenerator"
 		]
 	},
 	"mixins": [

@@ -10,9 +10,13 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     //TODO: Do the registry of items here
-    public static final Item ANCIENT_WEAPON = registerItem("ancient_weapon", new SwordItem(ModToolMaterials.ANCIENT, 8, 3F, new FabricItemSettings()));
+    public static final Item ANCIENT_WEAPON = registerItem("ancient_weapon", new SwordItem(ModToolMaterials.ANCIENT, 8, 0.5F, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(ExampleMod.MOD_ID, name), item);
+    }
+
+    public static void registerModItems(){
+        ExampleMod.LOGGER.info("Performing mod item registration");
     }
 }

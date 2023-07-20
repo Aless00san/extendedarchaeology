@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    ANCIENT(2, 1024, 6.5F, 2.5F, 15, () -> {
+    ANCIENT(2, 1024, 3.0F, 2.5F, 15, () -> {
         return Ingredient.ofItems(Items.BAMBOO);
     });
 

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:porkchop"
+          "name": "extendedarchaeology:ancient_weapon"
         }
       ]
     }
