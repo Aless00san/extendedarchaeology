@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "extendedarchaeology:block/ancient_stone" }
+  "dusted=0": {
+    "model": "extendedarchaeology:block/ancient_stone"
+  },
+  "dusted=1": {
+    "model": "extendedarchaeology:block/ancient_stone_1"
+  },
+  "dusted=2": {
+    "model": "extendedarchaeology:block/ancient_stone_2"
+  },
+  "dusted=3": {
+    "model": "extendedarchaeology:block/ancient_stone_3"
   }
+}
 }

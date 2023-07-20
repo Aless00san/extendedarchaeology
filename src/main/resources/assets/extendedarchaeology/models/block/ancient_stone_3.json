@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extendedarchaeology:block/ancient_stone_3"
+  }
+}
