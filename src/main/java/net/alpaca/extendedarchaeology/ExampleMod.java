@@ -22,7 +22,7 @@ public class ExampleMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("extendedarchaeology");
 	public static final String MOD_ID = "extendedarchaeology";
 
-	public static final AncientStone ancientStone = new AncientStone(Blocks.GRAVEL, FabricBlockSettings.copy(Blocks.STONE), SoundEvents.ITEM_BRUSH_BRUSHING_GENERIC,SoundEvents.ITEM_BRUSH_BRUSHING_SAND_COMPLETE);
+	public static final AncientStone ancientStone = new AncientStone(Blocks.GRAVEL, FabricBlockSettings.copy(Blocks.SUSPICIOUS_GRAVEL), SoundEvents.ITEM_BRUSH_BRUSHING_GENERIC,SoundEvents.ITEM_BRUSH_BRUSHING_SAND_COMPLETE);
 
 
 	@Override
