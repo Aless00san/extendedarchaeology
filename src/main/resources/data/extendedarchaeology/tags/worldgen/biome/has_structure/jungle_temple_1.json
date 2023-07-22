@@ -1,0 +1,8 @@
+{
+  "replace": false,
+
+  "_comment": "This is a small jungle temple containing 1 Ancient Stone",
+  "values": [
+    "#minecraft:is_jungle"
+  ]
+}

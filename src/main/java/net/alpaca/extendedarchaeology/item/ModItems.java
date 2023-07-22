@@ -16,7 +16,7 @@ public class ModItems {
     public static final Item ANCIENT_WEAPON = registerItem("ancient_weapon", new SwordItem(ModToolMaterials.ANCIENT, 8, 0.5F, new FabricItemSettings()));
     public static final Item ANCIENT_WEAPON_PART_1 = registerItem("ancient_weapon_part_1", new Item(new Item.Settings()));
     public static final Item ANCIENT_WEAPON_PART_2 = registerItem("ancient_weapon_part_2", new Item(new Item.Settings()));
-    public static final Item ANCIENT_SMITHING_TEMPLATE = registerItem("ancient_smithing_template", new ModSmithingTemplate(Text.empty(),Text.empty(),Text.empty(),Text.empty(),Text.empty(),new ArrayList<>(),new ArrayList<>()));
+    public static final Item ANCIENT_SMITHING_TEMPLATE = registerItem("ancient_smithing_template", new ModSmithingTemplate());
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(ExampleMod.MOD_ID, name), item);
