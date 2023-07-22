@@ -6,7 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "extendedarchaeology:ancient_weapon"
+          "name": "extendedarchaeology:ancient_weapon_part_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "extendedarchaeology:ancient_weapon_part_2"
         }
       ]
     }

@@ -1,4 +1,8 @@
 {
   "item.extendedarchaeology.ancient_weapon": "Ancient Weapon",
-  "block.extendedarchaeology.ancient_stone": "Ancient Stone"
+  "item.extendedarchaeology.ancient_weapon_part_1": "Ancient Weapon Part",
+  "item.extendedarchaeology.ancient_weapon_part_2": "Ancient Weapon Part",
+  "block.extendedarchaeology.ancient_stone": "Ancient Stone",
+  "item.extendedarchaeology.test_template_ingredients": "Ancient gear parts",
+  "item.extendedarchaeology.test_template_applies_to": "2 parts for the same item"
 }
