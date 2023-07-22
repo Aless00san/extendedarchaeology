@@ -18,8 +18,8 @@ public class ModSmithingTemplate extends SmithingTemplateItem {
     private static final Text APPLIES_TO_TEXT;
     private static final Text TITLE;
     private static final Text DESC;
-    private static final List<Identifier> MATERIAL_LIST = new ArrayList<Identifier>();;
-    private static final List<Identifier> EXTRA_MATERIAL_LIST = new ArrayList<Identifier>();;;
+    private static final List<Identifier> MATERIAL_LIST = new ArrayList<Identifier>();
+    private static final List<Identifier> EXTRA_MATERIAL_LIST = new ArrayList<Identifier>();
 
     // Missing texts are titleText, baseSlotDescriptionText,  additionsSlotDescriptionText
     public ModSmithingTemplate() {
